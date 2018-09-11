@@ -59,3 +59,41 @@ a {
 	display: flex;
 	flex-direction: column;
 }
+
+.goals-two {
+	display: none;
+}
+
+@media screen and (max-width: 850px) {
+
+	div { 
+		grid-template: 33% 33% 33% / 100%;
+	 }
+
+	ul {
+		grid-row: 3 / 4;
+	}
+	.display-none {
+		display: none;
+	}
+
+	.logos {
+		display: none;
+	}
+
+	.goals-two {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	}	
+
+	.graphs {
+		display: flex;
+		flex-direction: row;
+	}
+
+	div {
+		flex-direction: column;
+	}
+}
+
